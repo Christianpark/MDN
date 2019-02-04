@@ -9,9 +9,9 @@ h1+p{max-width:800px; margin:0 auto 50px auto;  color:#f4f4f4;}
 .guessField:focus{background-color:#d0eaf3;  }
 .guessSubmit{padding:5px 10px; border:1px solid #9ECEDE; border-radius: 5px; cursor: pointer; outline:none; background-color:#9ECEDE;}
 
-
-.resultParas .lastResult{width:300px; margin:0 auto 50px auto; padding:10px; border-radius: 5px; text-align: center; font-weight: 700; font-size:20px; }
-.resultParas + button{display:block; margin:0 auto; padding:10px 10px; width:200px; background-color:#ddde; cursor: pointer; text-transform: uppercase; text-align:center; animation-name: opacity; animation-duration: 3s; font-size:18px; }
+.resultParas{max-width:600px; margin:0 auto; text-align: center;}
+.resultParas .lastResult{width:330px; margin:0 auto 50px auto; padding:10px; border-radius: 5px; text-align: center; font-weight: 700; font-size:20px; }
+.resultParas + button{display:block; margin:0 auto; padding:10px 10px; width:200px; background-color:#ddde; box-shadow:0px 3px 7px 6px  #1f1e21cf; border-style:none; cursor: pointer; text-transform: uppercase; text-align:center; animation-name: opacity; animation-duration: 3s; font-size:18px; }
 .resultParas .guesses, .resultParas .lastResult{color:#f4f4f4;}
 .resultParas .lowOrHi{text-align: center; font-size:20px;}
 
